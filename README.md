@@ -13,7 +13,7 @@
 1. **Clone the repository**:
 
    git clone https://github.com/mansipatidar19/Authorization.git
-   cd Authorization 
+   cd your-repo
 
 
 2. **Install dependencies**:
