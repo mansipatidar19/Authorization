@@ -13,27 +13,35 @@
 1. **Clone the repository**:
 
    git clone https://github.com/mansipatidar19/Authorization.git
-   cd your-repo
+
+   cd Authorization
 
 
-2. **Install dependencies**:
+3. **Install dependencies**:
  
    npm install
    
 
-3. **Environment Variables**:
+4. **Environment Variables**:
 
    Create a `.env` file in the root directory and add the following environment variables:
 
+
    DB_HOST=your_db_host
+
    DB_USER=your_db_user
+
    DB_PASSWORD=your_db_password
+
    DB_NAME=your_db_name
+
    DB_PORT=your_db_port
+
    JWT_SECRET=your_jwt_secret
+
    EMAIL=your_email
-   EMAIL_PASSWORD=your_email_password
-   FRONTEND_URL=your_frontend_url
+
+   EMAIL_PASSWORD=your_password_to_send_emails
    
 
 ### Starting the Server
@@ -41,6 +49,7 @@
 1. **Start Apache and MySQL** (if using XAMPP or similar tools).
 
 2. **Run the server**:
+
    npm start
 
 ## API Endpoints
