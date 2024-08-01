@@ -85,7 +85,7 @@
 
 - **Reset Password**: Reset the password using a token
    
-  POST http://localhost:8080/api/v1/auth/resetPassword
+  POST http://localhost:8080/api/v1/auth/resetPassword/:token
    
 
 ## Dependencies
