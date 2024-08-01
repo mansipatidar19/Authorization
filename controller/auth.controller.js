@@ -85,7 +85,7 @@ const forgetPassword = async (req, res) => {
 
     // sending email sent response
     return res
-      .status(400)
+      .status(200)
       .json({ Message: "Visit your email to reset password" });
   } catch (error) {
     console.log("Error occured in forget Password:", error);
