@@ -12,7 +12,7 @@
 
 1. **Clone the repository**:
 
-   git clone https://github.com/your-repo.git
+   git clone https://github.com/mansipatidar19/Authorization.git
    cd your-repo
 
 
@@ -48,36 +48,36 @@
 ### User Routes
 
 - **Register**: Create a new user
-  ```
+   
   POST http://localhost:8080/api/v1/user/register
-  ```
+   
 
 - **Login**: Authenticate user and receive a token
-  ```
+   
   POST http://localhost:8080/api/v1/user/login
-  ```
+   
 
 - **Logout**: Log out the user
-  ```
+   
   POST http://localhost:8080/api/v1/user/logout
-  ```
+   
 
 ### Auth Routes
 
 - **User Details**: Get details of the authenticated user
-  ```
+   
   GET http://localhost:8080/api/v1/auth/userDetails
-  ```
+   
 
 - **Forgot Password**: Request a password reset
-  ```
+   
   POST http://localhost:8080/api/v1/auth/forgetPassword
-  ```
+   
 
 - **Reset Password**: Reset the password using a token
-  ```
+   
   POST http://localhost:8080/api/v1/auth/resetPassword
-  ```
+   
 
 ## Dependencies
 
